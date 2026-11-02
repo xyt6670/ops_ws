@@ -1,0 +1,3 @@
+[console_scripts]
+ops_receive = ops_serial.ops_receive:main
+

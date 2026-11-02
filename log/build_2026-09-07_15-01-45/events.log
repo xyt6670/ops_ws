@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.016230] (ops_serial) JobQueued: {'identifier': 'ops_serial', 'dependencies': OrderedDict()}
+[0.024872] (ops_serial) JobStarted: {'identifier': 'ops_serial'}
+[0.099114] (-) TimerEvent: {}
+[0.200817] (-) TimerEvent: {}
+[0.308081] (-) TimerEvent: {}
+[0.411346] (-) TimerEvent: {}
+[0.515040] (-) TimerEvent: {}
+[0.615710] (-) TimerEvent: {}
+[0.718109] (-) TimerEvent: {}
+[0.822860] (-) TimerEvent: {}
+[0.925378] (-) TimerEvent: {}
+[1.027371] (-) TimerEvent: {}
+[1.136591] (-) TimerEvent: {}
+[1.251189] (-) TimerEvent: {}
+[1.361350] (-) TimerEvent: {}
+[1.461837] (-) TimerEvent: {}
+[1.563444] (-) TimerEvent: {}
+[1.665756] (-) TimerEvent: {}
+[1.776500] (-) TimerEvent: {}
+[1.890624] (-) TimerEvent: {}
+[2.002768] (-) TimerEvent: {}
+[2.103895] (-) TimerEvent: {}
+[2.205089] (-) TimerEvent: {}
+[2.313855] (-) TimerEvent: {}
+[2.419221] (-) TimerEvent: {}
+[2.527507] (-) TimerEvent: {}
+[2.633509] (-) TimerEvent: {}
+[2.736879] (-) TimerEvent: {}
+[2.837657] (-) TimerEvent: {}
+[2.941592] (ops_serial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ops_serial', 'build', '--build-base', '/home/xyt/wuliu_27/ops_ws/build/ops_serial/build', 'install', '--record', '/home/xyt/wuliu_27/ops_ws/build/ops_serial/install.log', '--install-scripts', '$base/lib/ops_serial', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/xyt/wuliu_27/ops_ws/src/ops_serial', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/xyt', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'LANGUAGE': 'zh_CN:zh', 'USER': 'xyt', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/nls.messages.json","corruptMarkerFile":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5","_corruptedFile":"/home/xyt/.config/Code/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'DOTNET_CLI_TELEMETRY_OPTOUT': '1', 'XDG_SESSION_TYPE': 'wayland', 'DEBUG': 'release', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/xyt', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/xyt/wuliu_27', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-ddaba287-1.13-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '1753', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '1917', 'IM_CONFIG_CHECK_ENV': '1', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'DOTNET_ROLL_FORWARD': 'Major', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2767', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'CODEX_PERMISSION_PROFILE': ':danger-full-access', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'humble', 'LOGNAME': 'xyt', 'EIDE_PY3_CMD': '/usr/bin/python3', 'JOURNAL_STREAM': '8:15545', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'xyt', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'EIDE_BINARIES_VER': '12.1.0', 'PATH': '/home/xyt/.local/bin:/home/xyt/.codex/tmp/arg0/codex-arg0HHfHcP:/home/xyt/.vscode/extensions/cl.eide-3.27.2/res/tools/linux/unify_builder:/home/xyt/.eide/bin/builder/utils:/home/xyt/.eide/bin/scripts:/home/xyt/.vscode/extensions/cl.eide-3.27.2/res/tools/linux/7z:/home/xyt/.vscode/extensions/cl.eide-3.27.2/res/tools/linux/utils:.:/home/xyt/.local/bin:/home/xyt/.local/bin:/opt/ros/humble/bin:/home/xyt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/xyt/.vscode/extensions/openai.chatgpt-26.901.22334-linux-x64/bin/linux-x86_64', 'SESSION_MANAGER': 'local/xyt-VirtualBox:@/tmp/.ICE-unix/1887,unix/xyt-VirtualBox:/tmp/.ICE-unix/1887', 'CODEX_SESSION_ID': '01a07a9c-6fb5-7351-a40d-b36c18f8b03d', 'INVOCATION_ID': '00e3468e71604c4db800725e84c43734', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VPF2U3', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '01a07a9c-6fb5-7351-a40d-b36c18f8b03d', 'GJS_DEBUG_OUTPUT': 'stderr', 'EIDE_TOOL_OPENOCD': '.', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/xyt/wuliu_27/ops_ws/build/ops_serial', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/xyt/.config/Code/CachedData/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xyt/wuliu_27/ops_ws/build/ops_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VSCODE_PID': '2767'}, 'shell': False}
+[2.944399] (-) TimerEvent: {}
+[3.046272] (-) TimerEvent: {}
+[3.153274] (-) TimerEvent: {}
+[3.264975] (-) TimerEvent: {}
+[3.373083] (-) TimerEvent: {}
+[3.477802] (-) TimerEvent: {}
+[3.582232] (-) TimerEvent: {}
+[3.684148] (-) TimerEvent: {}
+[3.787925] (-) TimerEvent: {}
+[3.889956] (-) TimerEvent: {}
+[3.921091] (ops_serial) StdoutLine: {'line': b'running egg_info\n'}
+[3.921263] (ops_serial) StdoutLine: {'line': b'creating ../../build/ops_serial/ops_serial.egg-info\n'}
+[3.931763] (ops_serial) StdoutLine: {'line': b'writing ../../build/ops_serial/ops_serial.egg-info/PKG-INFO\n'}
+[3.931881] (ops_serial) StdoutLine: {'line': b'writing dependency_links to ../../build/ops_serial/ops_serial.egg-info/dependency_links.txt\n'}
+[3.931927] (ops_serial) StdoutLine: {'line': b'writing entry points to ../../build/ops_serial/ops_serial.egg-info/entry_points.txt\n'}
+[3.947937] (ops_serial) StdoutLine: {'line': b'writing requirements to ../../build/ops_serial/ops_serial.egg-info/requires.txt\n'}
+[3.948087] (ops_serial) StdoutLine: {'line': b'writing top-level names to ../../build/ops_serial/ops_serial.egg-info/top_level.txt\n'}
+[3.948133] (ops_serial) StdoutLine: {'line': b"writing manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'\n"}
+[3.948171] (ops_serial) StdoutLine: {'line': b"reading manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'\n"}
+[3.948205] (ops_serial) StdoutLine: {'line': b"writing manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'\n"}
+[3.948250] (ops_serial) StdoutLine: {'line': b'running build\n'}
+[3.948285] (ops_serial) StdoutLine: {'line': b'running build_py\n'}
+[3.948319] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build\n'}
+[3.948353] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib\n'}
+[3.948385] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial\n'}
+[3.948417] (ops_serial) StdoutLine: {'line': b'copying ops_serial/__init__.py -> /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial\n'}
+[3.948451] (ops_serial) StdoutLine: {'line': b'copying ops_serial/ops_receive.py -> /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial\n'}
+[3.948483] (ops_serial) StdoutLine: {'line': b'running install\n'}
+[3.948514] (ops_serial) StdoutLine: {'line': b'running install_lib\n'}
+[3.973072] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial\n'}
+[3.976200] (ops_serial) StdoutLine: {'line': b'copying /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial/__init__.py -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial\n'}
+[4.008103] (-) TimerEvent: {}
+[4.008137] (ops_serial) StdoutLine: {'line': b'copying /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial/ops_receive.py -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial\n'}
+[4.008198] (ops_serial) StdoutLine: {'line': b'byte-compiling /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial/__init__.py to __init__.cpython-310.pyc\n'}
+[4.008237] (ops_serial) StdoutLine: {'line': b'byte-compiling /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial/ops_receive.py to ops_receive.cpython-310.pyc\n'}
+[4.008275] (ops_serial) StdoutLine: {'line': b'running install_data\n'}
+[4.008310] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index\n'}
+[4.008346] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index\n'}
+[4.008379] (ops_serial) StdoutLine: {'line': b'creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index/packages\n'}
+[4.008413] (ops_serial) StdoutLine: {'line': b'copying resource/ops_serial -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index/packages\n'}
+[4.010444] (ops_serial) StdoutLine: {'line': b'copying package.xml -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ops_serial\n'}
+[4.010507] (ops_serial) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.010548] (ops_serial) StdoutLine: {'line': b'Copying ../../build/ops_serial/ops_serial.egg-info to /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial-0.0.0-py3.10.egg-info\n'}
+[4.019713] (ops_serial) StdoutLine: {'line': b'running install_scripts\n'}
+[4.091216] (ops_serial) StdoutLine: {'line': b'Installing ops_receive script to /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/ops_serial\n'}
+[4.093738] (ops_serial) StdoutLine: {'line': b"writing list of installed files to '/home/xyt/wuliu_27/ops_ws/build/ops_serial/install.log'\n"}
+[4.109384] (-) TimerEvent: {}
+[4.152980] (ops_serial) CommandEnded: {'returncode': 0}
+[4.210961] (-) TimerEvent: {}
+[4.312095] (-) TimerEvent: {}
+[4.360517] (ops_serial) JobEnded: {'identifier': 'ops_serial', 'rc': 0}
+[4.363939] (-) EventReactorShutdown: {}

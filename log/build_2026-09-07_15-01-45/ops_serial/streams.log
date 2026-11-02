@@ -1,0 +1,37 @@
+[2.919s] Invoking command in '/home/xyt/wuliu_27/ops_ws/src/ops_serial': PYTHONPATH=/home/xyt/wuliu_27/ops_ws/build/ops_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ops_serial build --build-base /home/xyt/wuliu_27/ops_ws/build/ops_serial/build install --record /home/xyt/wuliu_27/ops_ws/build/ops_serial/install.log --install-scripts $base/lib/ops_serial --single-version-externally-managed install_data
+[3.896s] running egg_info
+[3.896s] creating ../../build/ops_serial/ops_serial.egg-info
+[3.907s] writing ../../build/ops_serial/ops_serial.egg-info/PKG-INFO
+[3.907s] writing dependency_links to ../../build/ops_serial/ops_serial.egg-info/dependency_links.txt
+[3.907s] writing entry points to ../../build/ops_serial/ops_serial.egg-info/entry_points.txt
+[3.923s] writing requirements to ../../build/ops_serial/ops_serial.egg-info/requires.txt
+[3.923s] writing top-level names to ../../build/ops_serial/ops_serial.egg-info/top_level.txt
+[3.923s] writing manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'
+[3.923s] reading manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'
+[3.923s] writing manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'
+[3.923s] running build
+[3.923s] running build_py
+[3.923s] creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build
+[3.923s] creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib
+[3.924s] creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial
+[3.924s] copying ops_serial/__init__.py -> /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial
+[3.924s] copying ops_serial/ops_receive.py -> /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial
+[3.924s] running install
+[3.924s] running install_lib
+[3.951s] creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial
+[3.983s] copying /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial/__init__.py -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial
+[3.983s] copying /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial/ops_receive.py -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial
+[3.983s] byte-compiling /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial/__init__.py to __init__.cpython-310.pyc
+[3.983s] byte-compiling /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial/ops_receive.py to ops_receive.cpython-310.pyc
+[3.983s] running install_data
+[3.983s] creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index
+[3.983s] creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index
+[3.984s] creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index/packages
+[3.986s] copying resource/ops_serial -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index/packages
+[3.986s] copying package.xml -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ops_serial
+[3.986s] running install_egg_info
+[3.995s] Copying ../../build/ops_serial/ops_serial.egg-info to /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial-0.0.0-py3.10.egg-info
+[3.995s] running install_scripts
+[4.069s] Installing ops_receive script to /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/ops_serial
+[4.069s] writing list of installed files to '/home/xyt/wuliu_27/ops_ws/build/ops_serial/install.log'
+[4.140s] Invoked command in '/home/xyt/wuliu_27/ops_ws/src/ops_serial' returned '0': PYTHONPATH=/home/xyt/wuliu_27/ops_ws/build/ops_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ops_serial build --build-base /home/xyt/wuliu_27/ops_ws/build/ops_serial/build install --record /home/xyt/wuliu_27/ops_ws/build/ops_serial/install.log --install-scripts $base/lib/ops_serial --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ops_serial/ops_serial.egg-info/PKG-INFO
+../../build/ops_serial/ops_serial.egg-info/SOURCES.txt
+../../build/ops_serial/ops_serial.egg-info/dependency_links.txt
+../../build/ops_serial/ops_serial.egg-info/entry_points.txt
+../../build/ops_serial/ops_serial.egg-info/requires.txt
+../../build/ops_serial/ops_serial.egg-info/top_level.txt
+../../build/ops_serial/ops_serial.egg-info/zip-safe
+ops_serial/__init__.py
+ops_serial/ops_receive.py
+resource/ops_serial
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

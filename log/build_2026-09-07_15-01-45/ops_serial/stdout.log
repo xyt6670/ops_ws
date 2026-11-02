@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ops_serial/ops_serial.egg-info
+writing ../../build/ops_serial/ops_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/ops_serial/ops_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/ops_serial/ops_serial.egg-info/entry_points.txt
+writing requirements to ../../build/ops_serial/ops_serial.egg-info/requires.txt
+writing top-level names to ../../build/ops_serial/ops_serial.egg-info/top_level.txt
+writing manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'
+reading manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'
+writing manifest file '../../build/ops_serial/ops_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build
+creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib
+creating /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial
+copying ops_serial/__init__.py -> /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial
+copying ops_serial/ops_receive.py -> /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial
+running install
+running install_lib
+creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial
+copying /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial/__init__.py -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial
+copying /home/xyt/wuliu_27/ops_ws/build/ops_serial/build/lib/ops_serial/ops_receive.py -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial
+byte-compiling /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial/ops_receive.py to ops_receive.cpython-310.pyc
+running install_data
+creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index
+creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index
+creating /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index/packages
+copying resource/ops_serial -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/xyt/wuliu_27/ops_ws/install/ops_serial/share/ops_serial
+running install_egg_info
+Copying ../../build/ops_serial/ops_serial.egg-info to /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/python3.10/site-packages/ops_serial-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ops_receive script to /home/xyt/wuliu_27/ops_ws/install/ops_serial/lib/ops_serial
+writing list of installed files to '/home/xyt/wuliu_27/ops_ws/build/ops_serial/install.log'
